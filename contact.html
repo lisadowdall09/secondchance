@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Second Chance</title>
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap-4.3.1.css" rel="stylesheet" type="text/css">
+		<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  </head>
+
+  <body>
+		<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <div class="navbar-brand">Second Chance</div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+					<li class="nav-item">
+            <a class="nav-link" href="gallery.html">Gallery</a>
+          </li>
+					<li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="timetable" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Classes</a>
+            <div class="dropdown-menu" aria-labelledby="timetable">
+							<a class="dropdown-item" href="descriptions.html">Descriptions</a>
+              <a class="dropdown-item" href="timetable.html">Timetable</a>
+              <a class="dropdown-item" href="fees.html">Fees</a>
+            </div>
+          </li>
+					<li class="nav-item">
+            <a class="nav-link" href="about.html">About us</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Contact us <span class="sr-only">(current)</span></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+		<div class="container">
+      <form>
+        <div class="form-group">
+          <label for="nameInput">Name</label>
+          <input type="text" class="form-control" id="nameInput" placeholder="Enter name" required>
+        </div>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required>
+          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group">
+          <label for="numberInput">Phone number</label>
+          <input type="number" class="form-control" id="numberInput" placeholder="Enter number" required>
+        </div>
+        <div class="form-group">
+          <label for="goals">Tell us your goals</label>
+          <textarea class="form-control" id="goals" rows="3" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+
+    <footer class="footer">
+      <div>
+				Copyright 2019
+				<a href="https://www.facebook.com/secondchancehealthfitness/" class="fa fa-facebook"></a>
+        <a href="https://www.instagram.com/second_chance_health_fitness/" class="fa fa-instagram"></a>
+      </div>
+    </footer>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap-4.3.1.js"></script>
+
+  </body>
+
+</html>
