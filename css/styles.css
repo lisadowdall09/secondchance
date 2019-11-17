@@ -79,6 +79,12 @@ iframe {
   margin-right: auto;
   width: 45%;
 }
+.image_align_center_about {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
 .carousel-inner img {
   width: 30%;
 }

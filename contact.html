@@ -44,23 +44,23 @@
     </nav>
 
 		<div class="container">
-      <form>
+      <form action="mailto:secondchancehealthfitness@gmail.com" method="GET">
         <div class="form-group">
           <label for="nameInput">Name</label>
-          <input type="text" class="form-control" id="nameInput" placeholder="Enter name" required>
+          <input type="text" class="form-control" id="nameInput" name="nameInput" placeholder="Enter name" required>
         </div>
         <div class="form-group">
           <label for="exampleInputEmail1">Email address</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required>
+          <input type="email" class="form-control" id="exampleInputEmail1" name="emailInput" aria-describedby="emailHelp" placeholder="Enter email" required>
           <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
         </div>
         <div class="form-group">
           <label for="numberInput">Phone number</label>
-          <input type="number" class="form-control" id="numberInput" placeholder="Enter number" required>
+          <input type="number" class="form-control" id="numberInput" name="numberInput" placeholder="Enter number" required>
         </div>
         <div class="form-group">
           <label for="goals">Tell us your goals</label>
-          <textarea class="form-control" id="goals" rows="3" required></textarea>
+          <textarea class="form-control" id="goals" name="goalsInput" rows="3" required></textarea>
         </div>
         <button type="submit" class="btn btn-primary">Submit</button>
       </form>
